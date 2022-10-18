@@ -28,6 +28,30 @@ public class Job {
                 '}';
     }
 
+    public int getJobNumber() {
+        return jobNumber;
+    }
+
+    public Address getLocation() {
+        return location;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public List<Equipment> getRequiredEquipment() {
+        return requiredEquipment;
+    }
+
+    public Date getPlannedDate() {
+        return plannedDate;
+    }
+
+    public static int getJobTotal() {
+        return jobTotal;
+    }
+
     public boolean equals(Object other) {
         if(this == other) {
             return true;
